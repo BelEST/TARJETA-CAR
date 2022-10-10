@@ -1,0 +1,355 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigbox {
+  width: 750px;
+  height: 400px;
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.firstbox {
+  color: white;
+  background-color: #e38826;
+  padding: 25px;
+}
+.firstbox .icono1 {
+  width: 45px;
+  margin-bottom: 20px;
+}
+
+.firstbox .t1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.firstbox .p1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12.3px;
+  line-height: 20px;
+  padding: 0 18px;
+  margin-bottom: 80px;
+}
+.firstbox .boton1 {
+  width: 115px;
+  height: 35px;
+  color: #e38826;
+  border: white;
+  border-radius: 20px;
+}
+.firstbox .boton1:hover {
+  color: white;
+  background-color: #e38826;
+  border: white 2px solid;
+}
+
+.secondbox {
+  color: white;
+  background-color: #006970;
+  padding: 25px;
+}
+.secondbox .icono2 {
+  width: 45px;
+  margin-bottom: 20px;
+}
+
+.secondbox .t2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.secondbox .p2 {
+  margin-bottom: 80px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12.3px;
+  line-height: 20px;
+  padding: 0 18px;
+}
+.secondbox .boton2 {
+  width: 115px;
+  height: 35px;
+  color: #006970;
+  border: white;
+  border-radius: 20px;
+}
+
+.secondbox .boton2:hover {
+  color: white;
+  background-color: #006970;
+  border: white 2px solid;
+}
+
+.thirdbox {
+  color: white;
+  background-color: #004241;
+  padding: 25px;
+}
+.thirdbox .icono3 {
+  width: 45px;
+  margin-bottom: 20px;
+}
+.thirdbox .t3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.thirdbox .p3 {
+  margin-bottom: 80px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 20px;
+  font-size: 12.3px;
+  padding: 0 18px;
+}
+.thirdbox .boton3 {
+  width: 115px;
+  height: 35px;
+  color: #004241;
+  border: white;
+  border-radius: 20px;
+}
+.thirdbox .boton3:hover {
+  color: white;
+  background-color: #004241;
+  border: white 2px solid;
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigbox {
+    width: 550px;
+    height: 350px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstbox {
+    width: 33.3%;
+    padding: 20px;
+  }
+
+  .firstbox .icono1 {
+    width: 45px;
+    margin-bottom: 18px;
+  }
+
+  .firstbox .t1 {
+    font-size: 1.8rem;
+    margin-bottom: 17px;
+  }
+  .firstbox .p1 {
+    width: 104px;
+    height: 136px;
+
+    font-size: 9px;
+    line-height: 17px;
+    padding: 0 13px;
+    margin-bottom: 45px;
+  }
+  .firstbox .boton1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .secondbox {
+    width: 33.3%;
+    padding: 20px;
+  }
+  .secondbox .icono2 {
+    width: 45px;
+    margin-bottom: 18px;
+  }
+
+  .secondbox .t2 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 1.8rem;
+    margin-bottom: 17px;
+  }
+  .secondbox .p2 {
+    width: 104px;
+    height: 136px;
+    margin-bottom: 45px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 9px;
+    line-height: 17px;
+    padding: 0 13px;
+  }
+  .secondbox .boton2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .thirdbox {
+    width: 33.3%;
+    padding: 20px;
+  }
+  .thirdbox .icono3 {
+    width: 45px;
+    margin-bottom: 18px;
+  }
+  .thirdbox .t3 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 1.8rem;
+    margin-bottom: 17px;
+  }
+  .thirdbox .p3 {
+    width: 104px;
+    height: 136px;
+    margin-bottom: 45px;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 17px;
+    font-size: 9px;
+    padding: 0 13px;
+  }
+  .thirdbox .boton3 {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    /*  width: 380px;
+    height: 700px; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .bigbox {
+    width: 220px;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .firstbox {
+    height: 33.3%;
+    padding: 15px;
+    width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+  }
+  .firstbox .icono1 {
+    width: 36px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  .firstbox .t1 {
+    font-size: 1.4rem;
+    margin-bottom: 13px;
+    padding: 0 23px;
+  }
+  .firstbox .p1 {
+    line-height: 17px;
+    width: 180px;
+    font-size: 0.6rem;
+    padding: 0 23px;
+    margin-bottom: 12px;
+  }
+  .firstbox .boton1 {
+    width: 75px;
+    height: 27px;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    margin-left: 23px;
+  }
+
+  .secondbox {
+    height: 33.3%;
+    padding: 15px;
+    width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+  }
+  .secondbox .icono2 {
+    width: 36px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  .secondbox .t2 {
+    font-size: 1.4rem;
+    margin-bottom: 13px;
+    padding: 0 23px;
+  }
+  .secondbox .p2 {
+    line-height: 17px;
+    width: 180px;
+    font-size: 0.6rem;
+    padding: 0 23px;
+    margin-bottom: 12px;
+  }
+  .secondbox .boton2 {
+    width: 75px;
+    height: 27px;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    margin-left: 20px;
+  }
+  .thirdbox {
+    height: 33.3%;
+    padding: 15px;
+    width: 250px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+  }
+  .thirdbox .icono3 {
+    width: 36px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  .thirdbox .t3 {
+    font-size: 1.4rem;
+    margin-bottom: 13px;
+    padding: 0 23px;
+  }
+  .thirdbox .p3 {
+    line-height: 17px;
+    width: 180px;
+    font-size: 0.6rem;
+    padding: 0 23px;
+    margin-bottom: 12px;
+  }
+  .thirdbox .boton3 {
+    width: 75px;
+    height: 27px;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    margin-left: 23px;
+  }
+}
